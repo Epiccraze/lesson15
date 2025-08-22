@@ -1,0 +1,12 @@
+"""def functioncalling():
+    print("Ansh")
+functioncalling()"""
+
+"""def myfunction(name, place):
+    print(name, place)
+myfunction("Ansh", "Houston")"""
+
+def wellwishes():
+    print("Hello,")
+    print("how are you?")
+wellwishes()
