@@ -11,9 +11,38 @@ myfunction("Ansh", "Houston")"""
     print("how are you?")
 wellwishes()"""
 
-def weathercondition():
+"""def weathercondition():
     print("The weather is pleasent in ",spring)
     print("The weather is same in ",autumn)
 spring="autumn"
 autumn="spring"
-weathercondition()
+weathercondition()"""
+
+def add(a, b):
+    return a + b
+def subtract(a, b):
+    return a-b
+def multiply(a, b):
+    return a*b
+def divide(a, b):
+    return a/b
+print("Choose your own operation")
+print("p.add")
+print("q.subtract")
+print("r.multiply")
+print("s.division")
+choice=input("Enter your choice(p/q/r/s:)")
+num1=int (input("Enter your first number"))
+num2=int (input("Enter your second number"))
+if choice=="p":
+    print(add(num1, num2))
+elif choice=="q":
+    print(subtract(num1, num2))
+elif choice=="r":
+    print(multiply(num1, num2))
+elif choice=="s":
+    print(divide(num1, num2))
+else:
+    print("Invalid choice")
+
+
